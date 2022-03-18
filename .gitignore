@@ -1,0 +1,15 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+.vscode
+# Ignore Gradle build output directory
+build
+.gitattributes
+gradlew
+gradlew.bat
+target
+*.cert
+*.pem
+*.p12
+*.jks
+app/bin
+app/build
