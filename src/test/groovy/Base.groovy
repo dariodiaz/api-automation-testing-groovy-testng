@@ -10,8 +10,8 @@ import org.testng.annotations.BeforeClass;
 class Base {
     @BeforeClass
     public static void setupRestAssured() {
-        RestAssured.baseURI = "http://qa-library-dev.herokuapp.com"
-        RestAssured.basePath = "/api/"
+        RestAssured.baseURI = "https://restful-booker.herokuapp.com"
+        //RestAssured.basePath = "/api/"
         RequestSpecification requestSpec = new RequestSpecBuilder().
                 addHeader("Content-Type", ContentType.JSON.toString()).
                 addHeader("Accept", ContentType.JSON.toString()).

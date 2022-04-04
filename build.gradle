@@ -28,7 +28,7 @@ test {
         useDefaultListeners = true
         reports.html.enabled(false)
         parallel="tests"
-        includeGroups "smoke"
+        //includeGroups "smoke"
     }
     testLogging.showStandardStreams = true
 
